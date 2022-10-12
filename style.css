@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 10rem;
+    background-color: #1d1942;
+    color: #fff;
+}
+.form-select{
+    font-size: 2rem;
+}
+.city-weather {
+    margin-top: 5rem;
+    text-align: center;
+}
+ h1{
+    font-size: 5rem;
+ }
+ h2{font-size: 3rem}
+ h5{
+    font-size: 2rem;
+ }
+
+@media(max-width: 800px) {
+    body{margin:8rem}
+    h1{
+        font-size: 4rem;
+     }
+     h2{font-size: 2.5rem}
+     h5{
+        font-size: 1.5rem;
+     }
+     .form-select{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 400px) {
+    body{margin:5rem;}
+    h1{
+        font-size: 3rem;
+     }
+     h2{font-size: 2rem}
+     h5{
+        font-size: 1.3rem;
+     }
+     .form-select{
+        font-size: 1.5rem;
+    }
+}
